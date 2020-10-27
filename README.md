@@ -7,6 +7,7 @@
 * You'll also get some object practice.
 * And some of that object work might look familiar, as we've covered the same problems before. If you can, don't look at the old solutions and come up with new versions with the knowledge and techniques you've gained in the meantime!
 
+
 ### A Note On Mutation
 
 There are two levels at which we worry about mutation here. The easier to avoid is the array level. If you `push` or otherwise mutate the array you take in as a parameter, it will affect the array that was passed in as well (since they are, in fact, the same array). But the more insidious mutation--the one that's easier to miss--is the object level. Each element of the array is a mutable object, and if you mutate the object that's in the array, you'll mutate the object in the array outside as well.
